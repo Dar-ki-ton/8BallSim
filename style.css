@@ -1,0 +1,73 @@
+html {
+  background: url(img/board.jpg) no-repeat;
+  background-size: cover;
+}
+
+body {
+  width: 900px;
+  background: rgba(88, 88, 88, 0.8);
+  padding: 20px;
+  margin: 10px auto;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 40px;
+  font-family: "Silkscreen", sans-serif;
+  color: #a77f7b;
+}
+
+hr {
+  border: 5px solid #8f6460;
+}
+
+h2 {
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-family: "Permanent Marker", cursive;
+  color: #5a7873;
+}
+
+input {
+  background: #a6b5a8;
+  width: 885px;
+  padding: 5px;
+  font-size: 25px;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+  color: #5c442c;
+
+  transition: background 2s, color 2s;
+}
+
+input:hover {
+  background: #2e372f;
+  color: #7e5d3c;
+
+  transition: background 2s, color 2s;
+}
+
+p {
+  margin-top: 0px;
+  font-size: 20px;
+  font-family: "Press Start 2P", system-ui;
+  color: #71948f;
+}
+
+img {
+  width: 400px;
+  margin: 20px 250px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+div {
+  background: #d9e8e9;
+  padding: 0px 5px;
+}
+
+#answer {
+  font-family: "Rubik Marker Hatch", system-ui;
+}
